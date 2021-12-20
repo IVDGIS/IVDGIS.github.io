@@ -1,12 +1,9 @@
-# IVDGIS.github.io
-IVDisplays Website
+# IVD Crop-monitoring Tools (Beta)
 
 ## CropWorks
-### (Glance at your crop health) 
-
-  
+(A glance at your crop health) 
+ 
 - NDVI
 - LAI
 - & more
 
-## 
