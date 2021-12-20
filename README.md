@@ -6,4 +6,3 @@
 - NDVI
 - LAI
 - & more
-
