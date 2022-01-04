@@ -1,5 +1,13 @@
 <!DOCTYPE HTML>
 
+
+esriConfig.apiKey = "895462";
+const basemapEnum = "arcgis-streets" // arcgis-imagery, arcgis-navigation, arcgis-light-gray
+const map = new Map({
+basemap: basemapEnum
+});
+
+
 <html>
 	<head>
 		<title>GIS for Crop by IVD</title>
@@ -10,12 +18,6 @@
 	</head>
 	<body class="is-preload">
 
-
-		esriConfig.apiKey = "YOUR_API_KEY";
-		const basemapEnum = "arcgis-streets" // arcgis-imagery, arcgis-navigation, arcgis-light-gray
-		const map = new Map({
-		  basemap: basemapEnum
-		});
 
 		<!-- Wrapper -->
 			<div id="wrapper">
