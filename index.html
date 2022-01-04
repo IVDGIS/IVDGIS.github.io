@@ -10,7 +10,12 @@
 	</head>
 	<body class="is-preload">
 
-https://basemaps-api.arcgis.com/arcgis/rest/services/styles/{basemapStyle}?token={apiKey}
+
+		esriConfig.apiKey = "YOUR_API_KEY";
+		const basemapEnum = "arcgis-streets" // arcgis-imagery, arcgis-navigation, arcgis-light-gray
+		const map = new Map({
+		  basemap: basemapEnum
+		});
 
 		<!-- Wrapper -->
 			<div id="wrapper">
